@@ -109,8 +109,8 @@ div.main div.discover .btn-discover:active {
 
 @keyframes btn-discover-hover{
     from {
-        background-color: rgb(79, 250, 236, 0.85);
-        box-shadow: 0 7px rgb(52, 168, 159, 0.7);
+        background-color: rgb(79, 250, 236, 0.6);
+        box-shadow: 0 7px rgb(52, 168, 159, 0.4);
     }
     to{
         background-color: rgb(79, 250, 236, 1);
@@ -119,8 +119,8 @@ div.main div.discover .btn-discover:active {
 }
 
 div.main div.discover .btn-discover:hover {
-    transition: all 2s infinite ease-in-out;
-    animation: btn-discover-hover 1s alternate-reverse infinite;
+    transition: all 2s infinite ease;
+    animation: btn-discover-hover 1s reverse 1s infinite;
 }
 
 footer{
@@ -232,14 +232,25 @@ div.hightlights-wrapper .item{
     flex: auto;
     width: 20%;
     background-size: cover;
+    background-position: center;
     border-radius: 7px;
+}
+
+div.hightlights-wrapper .item:hover{
+    width: 22%;
+    height: 320px;
+    transition: width, height 1s ease-out; 
+}
+
+div.hightlights-wrapper .item:hover h6{
+    display: block;
 }
 
 div.hightlights-wrapper .item h6{
     text-align: center;
     font-size: 15px;
     color: white;
-    font-weight: normal;
     text-decoration: underline;
     margin-top: 50%;
+    display: none;
 }
