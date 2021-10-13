@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body, 
+ul, ol, li,
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: linear-gradient(rgba(127, 255, 212, 0.726), rgba(127, 255, 212, 0))
+}
+
+header div.logo{
+    margin: 0 2%;
+    padding: 1%;
+}
+
+header div.logo :hover{
+    cursor: pointer;
+}
+
+header div.logo img{
+    width: 10%;
+}
