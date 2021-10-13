@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6{
 
 header{
     background: linear-gradient(rgba(0, 204, 255, 1), rgba(0, 204, 255, 0));
-    height: 50px;
+    max-height: max-content;
     padding-top: 1%;
     position: fixed;
     width: 100%;
@@ -61,9 +61,8 @@ header .nav a{
 }
 
 header .nav a:hover{
-    /* animation: fontcolor-nav 4s infinite; */
     color:blue;
-    transition: all 1s;
+    transition: ease-in-out 1s;
 }
 
 div.main{
@@ -96,10 +95,10 @@ div.main div.discover p{
 }
 
 div.main div.discover .btn-discover{
-    background-color: rgb(79, 250, 236, 0.85);
+    background-color: rgb(79, 250, 236, 0.7);
     margin: 0 auto;
     padding: 12px 50px;
-    box-shadow: 0 7px rgb(52, 168, 159, 0.7);
+    box-shadow: 0 7px rgb(52, 168, 159, 0.5);
 }
 
 div.main div.discover .btn-discover:active {
@@ -120,12 +119,14 @@ div.main div.discover .btn-discover:active {
 }
 
 div.main div.discover .btn-discover:hover {
-    animation: btn-discover-hover 4s infinite;
+    transition: all 2s infinite ease-in-out;
+    animation: btn-discover-hover 1s alternate-reverse infinite;
 }
 
 footer{
     background-color: rgb(0, 202, 252);
     width: 100%;
+    max-height: max-content;
     padding: 40px 0 240px 0;
     color: white;
 }
