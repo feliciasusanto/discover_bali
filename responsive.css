@@ -1,7 +1,33 @@
 @media all and (max-width: 1000px){
-
+    div.main div.discover p{
+        padding: 0 10%;
+        margin-bottom: 80px;
+    }
 }
 
 @media all and (max-width: 670px) {
-
+    header .nav a{
+        display: none;
+    }
+    header .bi-list{
+        display: block;
+        padding: 0 15px;
+    }
+    div.main div.discover{
+        padding: 160px 0;
+        color: white;
+        text-align: center;
+    }
+    div.main div.discover h1{
+        font-size: 30px;
+        padding: 0 5%;
+    }
+    div.main div.discover p{
+        font-size: 25px;
+        padding: 0 5%;
+        margin-bottom: 60px;
+    }
+    .btn{
+        padding: 8px 10px;
+    }
 }
