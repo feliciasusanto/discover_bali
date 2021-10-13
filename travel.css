@@ -126,7 +126,7 @@ div.main div.discover .btn-discover:hover {
 footer{
     background-color: rgb(0, 202, 252);
     width: 100%;
-    padding: 40px 0 220px 0;
+    padding: 40px 0 240px 0;
     color: white;
 }
 
@@ -149,8 +149,7 @@ footer div.logo h1{
     font-size: 25px;
     padding-left: 8px;
     margin-top: 15px;
-    /* color: rgb(29, 26, 26); */
-    color: greenyellow;
+    color: blue;
 }
 
 footer div.sites{
@@ -168,7 +167,8 @@ footer div.sites h2{
 }
 
 footer div.sites div.visit-website p{
-    width: 50%;
+    width: 60%;
+    max-width: 300px;
     font-size: 18px;
     background-color: white;
     padding: 5px 25px 5px 25px;
@@ -179,7 +179,6 @@ footer div.sites div.visit-website p{
 
 footer div.sites div.visit-website p i{
     color: rgb(122, 180, 34);
-    /* padding-left: 50px; */
     float: right;
 }
 
@@ -193,4 +192,24 @@ footer div.sites div.social-media i{
     text-align: center;
     font-size: 25px;
     margin: 0 5px;
+}
+
+.bi:hover{
+    transition: all 1s;
+}
+
+.bi-facebook:hover{
+    color: #1877f2;
+}
+
+.bi-instagram:hover{
+    color: #cd486b;
+}
+
+.bi-twitter:hover{
+    color: #00acee;
+}
+
+.bi-youtube:hover{
+    color: #FF0000;
 }
