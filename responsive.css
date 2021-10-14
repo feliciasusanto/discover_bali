@@ -110,10 +110,11 @@
     div.subscribe form input[type="button"]{
         font-size: 12px;
         padding: 8px 20px;
-        margin-left: 5px;
+        margin-top: 5px;
+        margin-left: 25%;
     }
     div.subscribe form input[type="email"]{
-        width: 40%;
+        width: 60%;
         font-size: 12px;
         padding: 8px 12px;
     }
