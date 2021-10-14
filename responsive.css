@@ -1,7 +1,33 @@
 @media all and (max-width: 1000px){
+    /* main */
     div.main div.discover p{
         padding: 0 10%;
         margin-bottom: 80px;
+    }
+    /* highlight */
+    div.hightlights-wrapper .item{
+        height: 250px;
+        width: 25%;
+    }
+    div.hightlights-wrapper .item h6{
+        font-size: 13px;
+    }
+    /* subscribe */
+    div.subscribe form{
+        padding: 20px 2%;
+    }
+    div.subscribe form h1{
+        font-size: 22px;
+    }
+    div.subscribe form input[type="button"]{
+        font-size: 12px;
+        padding: 8px 20px;
+        margin-left: 15px;
+    }
+    div.subscribe form input[type="email"]{
+        width: 48%;
+        font-size: 12px;
+        padding: 8px 12px;
     }
 }
 
@@ -68,5 +94,27 @@
     }
     footer div.sites div.social-media i{
         font-size: 17px;
+    }
+    /* highlight */
+    div.hightlights-wrapper .item{
+        height: 200px;
+        width: 30%;
+    }
+    /* subscribe */
+    div.subscribe form{
+        padding: 20px 2%;
+    }
+    div.subscribe form h1{
+        font-size: 21px;
+    }
+    div.subscribe form input[type="button"]{
+        font-size: 12px;
+        padding: 8px 20px;
+        margin-left: 5px;
+    }
+    div.subscribe form input[type="email"]{
+        width: 40%;
+        font-size: 12px;
+        padding: 8px 12px;
     }
 }

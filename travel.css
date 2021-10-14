@@ -269,22 +269,23 @@ div.subscribe form{
     margin: 0 auto;
 }
 
-div.subscribe form:hover{
-    transition: all 1s ease;
+div.subscribe form h1{
+    color: white; 
+    margin: 0 0 15px 25%; 
+    font-size: 25px;
 }
 
 div.subscribe form input[type="button"]{
-    width: 17%;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
     color:white;
     letter-spacing: 0;
     background: transparent linear-gradient(289deg,#58e5a8 0,#77eded 100%);
-    padding: 12px 30px;
+    padding: 10px 23px;
     border: none;
     border-radius: 5px;
-    margin-left: 25px;
+    margin-left: 14px;
 }
 
 @keyframes subscribe-btn-hover{
@@ -292,19 +293,20 @@ div.subscribe form input[type="button"]{
     25% {background: transparent linear-gradient(289deg,#58e5a8c9 0,#77ededc9 100%);}
     50% {background: transparent linear-gradient(289deg,#58e5a8df 0,#77ededdf 100%);}
     75% {background: transparent linear-gradient(289deg,#58e5a8ef 0,#77ededef 100%);}
-    100% {background: transparent linear-gradient(289deg,#58e5a8 0,#77eded 100%); width: 18%; margin-left: 15px;}
+    100% {background: transparent linear-gradient(289deg,#58e5a8 0,#77eded 100%);}
 }
 
 div.subscribe form input[type="button"]:hover{
     transition: all 1.5s ease-in-out;
-    animation: subscribe-btn-hover 1.5s linear infinite alternate;
+    animation: subscribe-btn-hover 1.5s infinite alternate;
+    transform: scale(1.1, 1.1);
 }
 
 div.subscribe form input[type="email"]{
     width: 50%;
     text-align: left;
     font-size: 15px;
-    padding: 12px 15px;
+    padding: 10px 15px;
     border-radius: 10px;
     border: none;
     margin-left: 25%;
@@ -318,4 +320,5 @@ div.subscribe form input[type="email"]:hover{
     transition: all 1s ease;
     transform: scale(1.1, 1.1);
 }
+
 
